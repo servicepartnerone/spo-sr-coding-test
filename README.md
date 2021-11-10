@@ -1,32 +1,30 @@
 # SPO recruitment task for Frontend Developers
 
-Hello! If you are here then you reached the coding challenge for Frontend Developers at SPO! 
-This coding challenge should represent a task that is very close to what we are usually work on at SPO.
+Hello! If you are here then you reached the coding challenge for Frontend Developers at SoniQ Services! 
+This coding challenge should represent a task that is very close to what we are usually working on at SoniQ Services.
 You should take no more than 5h to complete this task.
 
-The souce code of the solution should be provided as a bunch of files (or via github repo). It is highly recommended to use some build tools (preferably webpack) and push all the sources to git repository so you will be able to demonstrate also your ability of working with build tools and git itself. Please note that **code quality** is also important for us.
+The source code of the solution should be provided as a bunch of files (or via github repo). It is highly recommended to use some build tools (preferably webpack) and push all the sources to git repository so you will be able to demonstrate also your ability of working with build tools and git itself. Please note that **code quality** is very important to us.
 
-Good luck to you and hope you will enjoy the process while solving this task!
+Good luck and we hope you will enjoy the process of solving this task!
 
 
 ## Create a demo calendar application
 
-The aim of this exercise is to create a demo calendar application using React & Redux. You can use 'npm mock-json-server' to mock the server data and do the proper API calls. You need to use *REST API* to get the data.
+The aim of this exercise is to create a demo calendar application using React & Redux. You can use 'npm mock-json-server' to mock the server data and do the proper API calls. You need to use *QraphQL* and *react-query* library to get the data. (https://react-query.tanstack.com/overview)
 
-Our focus is on the functionality of the calendar, especially on the data fetching. And don't worry, if you can't finish it in the given time, we will just have a look at what you have done so far and you can explain your code to us :-)
+Our focus is on the functionality of the calendar, especially on the data fetching. And don't worry, if you cannot finish the UI part in the given time, we will just have a look at what you have done so far and you can explain your code to us :-)
 
-You can be creative with your idea of the calendar. You could do a daily list view calendar or stick more to this example:
-
-![alt text](https://github.com/gevorgmakaryan/spo-sr-dev-test/blob/master/Screen-Shot-2018-07-25-at-14.21.00-768x549.png)
+You can be creative with your idea of the calendar. You could do a daily list view calendar or stick more to solution that Google calendar uses for example.
 
 
 ### Technical requirements
 
-1. Ability to add a new “reminder” (max 30 chars) for a user entered day and time.
+1. Ability to add a new event/reminder with name (max 30 chars), date and time.
 
 2. Display reminders on the calendar view in the correct time order.
 
-3. Ability to edit reminders – including changing text, day and time & colour.
+3. Ability to edit reminders – including changing name, date and time.
 
 4. Ability to delete reminders.
 
@@ -34,9 +32,11 @@ You can be creative with your idea of the calendar. You could do a daily list vi
 
 6. Use a CSS preprocessor like LESS
 
-7. Provide a readme with an instruction how to install your application
+7. You should use React + Redux + react-query + GraphQL + hooks.
 
-8. You should you React + redux.
+8. Provide a readme.md file with an instruction on how to install your application
+
+
 
 
 ### Bonus (optional)
@@ -45,13 +45,10 @@ You can be creative with your idea of the calendar. You could do a daily list vi
 
 2. Find a nice way to handle the displaying of the reminders, when multiple appear on the same date.
 
-3. Allow the user to select a colour when creating a reminder and display it appropriately.
+3. Prev / Next month (or day) functionality
 
-4. Prev / Next month (or day) functionality
+4. Use date-fns for dates or other simple library (avoid using moment.js).
 
-5. Use date-fns for dates or other simple library (avoid using moment.js).
+5. Drag&drop ability to sort reminders.
 
-6. Drag&drop ability to sort reminders.
-
-7. Using react hooks.
 
