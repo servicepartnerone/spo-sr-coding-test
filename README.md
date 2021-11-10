@@ -1,4 +1,4 @@
-# SPO recruitment task for Frontend Developers
+# SoniQ Services recruitment task for Frontend Developers
 
 Hello! If you are here then you reached the coding challenge for Frontend Developers at SoniQ Services! 
 This coding challenge should represent a task that is very close to what we are usually working on at SoniQ Services.
