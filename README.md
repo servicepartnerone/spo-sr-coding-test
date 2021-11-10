@@ -11,7 +11,7 @@ Good luck and we hope you will enjoy the process of solving this task!
 
 ## Create a demo calendar application
 
-The aim of this exercise is to create a demo calendar application using React & Redux. You can use 'npm mock-json-server' to mock the server data and do the proper API calls. You need to use *GraphQL* and *react-query* library to get the data. (https://react-query.tanstack.com/overview)
+The aim of this exercise is to create a demo calendar application using React & Redux. You can use 'npm mock-json-server' to mock the server data and do the proper API calls (REST or GraphQL - your choice). You need to use *react-query* library to get the data. (https://react-query.tanstack.com/overview)
 
 Our focus is on the functionality of the calendar, especially on the data fetching. And don't worry, if you cannot finish the UI part in the given time, we will just have a look at what you have done so far and you can explain your code to us :-)
 
@@ -32,7 +32,7 @@ You can be creative with your idea of the calendar. You could do a daily list vi
 
 6. Use a CSS preprocessor like LESS
 
-7. You should use React + Redux + react-query + GraphQL + hooks.
+7. You should use React + Redux + react-query + hooks.
 
 8. Provide a readme.md file with an instruction on how to install your application
 
