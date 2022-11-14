@@ -2,7 +2,7 @@
 
 Hello! If you are here then you reached the coding challenge for Frontend Developers at SoniQ Services! 
 This coding challenge should represent a task that is very close to what we are usually working on at SoniQ Services.
-You should take no more than 5h to complete this task.
+You should take no more than 6-8h to complete this task.
 
 The source code of the solution should be provided as a bunch of files (or via github repo). It is highly recommended to use some build tools (preferably webpack) and push all the sources to git repository so you will be able to demonstrate also your ability of working with build tools and git itself. Please note that **code quality** is very important to us.
 
