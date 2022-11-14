@@ -30,9 +30,9 @@ You can be creative with your idea of the calendar. You could do a daily list vi
 
 5. Calendar should be responsive.
 
-6. Use a CSS preprocessor like LESS
+6. Use styled-components
 
-7. You should use React + Redux + react-query + hooks.
+7. You should use React + Redux (or redux-toolkit) + react-query + hooks.
 
 8. Provide a readme.md file with an instruction on how to install your application
 
@@ -41,7 +41,7 @@ You can be creative with your idea of the calendar. You could do a daily list vi
 
 ### Bonus (optional)
 
-1. Writing unit tests for the available features will be considered as a big plus (Jest, Enzyme).
+1. Writing unit tests for the available features (Jest, Enzyme).
 
 2. Find a nice way to handle the displaying of the reminders, when multiple appear on the same date.
 
